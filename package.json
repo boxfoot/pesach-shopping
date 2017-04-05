@@ -1,0 +1,12 @@
+{
+  "name": "pesach-recipes",
+  "version": "1.0.0",
+  "description": "Recipe planning and shopping list generator",
+  "main": "index.js",
+  "repository": "https://bitbucket.org/benjkamm/pesach-recipes.git",
+  "author": "Benj <benj.kamm@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "csv-stringify": "^1.0.4"
+  }
+}
