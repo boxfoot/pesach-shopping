@@ -4,7 +4,7 @@
 const groceries = {
 	seltzer: { store: 'home', aisle: 'n/a', unit: 'cup' },
 
-	eggs: { store: 'TJ', aisle: 'dairy', unit: 'egg' },
+	eggs: { store: 'TJ', aisle: 'dairy', unit: 'dozen' },
 	'horse radish': { store: 'Coopers', aisle: 'dairy', unit: 'jar' },
 	salmon: { store: 'Coastal', aisle: 'n/a', unit: 'lb' },
 	lox: { store: 'TJ', aisle: 'meat', unit: 'lb' },
@@ -16,7 +16,7 @@ const groceries = {
 	feta: { store: 'Coopers', aisle: 'dairy', unit: 'each' },
 	yogurt: { store: 'Lunds', aisle: 'dairy', unit: 'each' },
 	mayo: { store: 'Coopers', aisle: 'dairy', unit: 'cup' },
-	milk: { store: 'TJ', aisle: 'dairy', unit: 'each' },
+	milk: { store: 'TJ', aisle: 'dairy', unit: 'gallon' },
 	'whipping cream': { store: 'TJ', aisle: 'dairy', unit: 'each' },
 
 	oil: { store: '*any*', aisle: 'liquids', unit: 'cup' },
@@ -55,6 +55,7 @@ const groceries = {
 	garlic: { store: '*any*', aisle: 'produce', unit: 'each' },
 	carrots: { store: '*any*', aisle: 'produce', unit: 'each' },
 	tomatoes: { store: '*any*', aisle: 'produce', unit: 'lb' },
+	leeks: { store: '*any*', aisle: 'produce', unit: 'large' },
 	maror: { store: '???', aisle: 'produce', unit: 'each' },
 	bananas: { store: '*any*', aisle: 'produce', unit: 'each' },
 	orange: { store: '*any*', aisle: 'produce', unit: 'each' },
@@ -75,6 +76,7 @@ const groceries = {
 	matzah: {store: 'Coopers', aisle: 'K for P', unit: 'box' },
 	'matzah meal': { store: 'Coopers', aisle: 'K for P', unit: 'cup' },
 	'cake meal': { store: 'Coopers', aisle: 'K for P', unit: 'cup' },
+	starch: {store: 'Coopers', aisle: 'K for P', unit: 'cup' },
 
 	'red wine': {store: 'TJ', aisle: 'Wine store', unit: 'bottle' },
 	'white wine': {store: 'TJ', aisle: 'Wine store', unit: 'bottle' },

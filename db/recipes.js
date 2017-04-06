@@ -5,7 +5,7 @@ const recipes = {}
 
 recipes['matzah_balls'] = {
 	ingredients: [
-		{ item: "eggs", number: 4 },
+		{ item: "eggs", number: 4, unit: "each" },
 		{ item: "seltzer", number: 0.5 },
 		{ item: "oil", number: 3, unit: "Tb" },
 		{ item: "parsley", number: 2, unit: "Tb" },
@@ -28,7 +28,7 @@ recipes['gefilte fish'] = {
 
 recipes['seder plate'] = {
 	ingredients: [
-		{ item: "eggs", number: 1 },
+		{ item: "eggs", number: 1, unit: "each" },
 		{ item: "beet", number: 1 },
 		{ item: "maror", number: 1 },
 		{ item: "horse radish", number: 1 },
@@ -65,7 +65,7 @@ recipes['caponata'] = {
 
 recipes['huevos haminadas'] = {
 	ingredients: [
-		{ item: "eggs", number: 24 },
+		{ item: "eggs", number: 24, unit: "each" },
 		{ item: "salt", number: 1, unit: "Tb" },
 		{ item: "pepper", number: 0.5, unit: "tsp" },
 		{ item: "onion skins", number: 1, unit: "bag" },
@@ -128,7 +128,7 @@ recipes['quinoa pilaf'] = {
 
 recipes['apple cake'] = {
 	ingredients: [
-		{ item: "eggs", number: 6 },
+		{ item: "eggs", number: 6, unit: "each" },
 		{ item: "sugar", number: 2 },
 		{ item: "oil", number: 1 },
 		{ item: "cake meal", number: 1.5 },
@@ -139,7 +139,7 @@ recipes['apple cake'] = {
 
 recipes['spice cake'] = {
 	ingredients: [
-		{ item: "eggs", number: 12 },
+		{ item: "eggs", number: 12, unit: "each" },
 		{ item: "sugar", number: 2 },
 		{ item: "cinnamon", number: 1.5, unit: "tsp" },
 		{ item: "cloves", number: 0.25, unit: "tsp" },
@@ -151,7 +151,7 @@ recipes['spice cake'] = {
 
 recipes['almond cake'] = {
 	ingredients: [
-		{ item: "eggs", number: 10 },
+		{ item: "eggs", number: 10, unit: "each" },
 		{ item: "sugar", number: 1 },
 		{ item: "lemon", number: 1 },
 		{ item: "vanilla", number: 1, unit: "bean" },
@@ -168,9 +168,9 @@ recipes['dessert fruit'] = {
 recipes['food to eat'] = {
 	ingredients: [
 		{ item: "parsley", number: 4, unit: "bundle" },
-		{ item: "raisins", number: 1, unit: "lb" },
+		{ item: "raisins", number: 2, unit: "lb" },
 
-		{ item: "eggs", number: 24 },
+		{ item: "eggs", number: 24, unit: "each" },
 		{ item: "mayo", number: 2, unit: "cup" },
 		{ item: "tuna", number: 4 },
 		{ item: "sardines", number: 8 },
@@ -181,7 +181,7 @@ recipes['food to eat'] = {
 		{ item: "chocolate", number: 12 },
 		{ item: "quinoa", number: 2 },
 		{ item: "apples", number: 12 },
-		{ item: "tea", number: 1 },
+		{ item: "tea", number: 4 },
 		{ item: "coffee", number: 1 },
 		{ item: "parchment paper", number: 1 },
 		{ item: "tehina", number: 1 },
@@ -201,6 +201,21 @@ recipes['food to eat'] = {
 	]
 }
 
+recipes['cauliflower kugel'] = {
+	ingredients: [
+		{ item: "cauliflower", number: 2, unit: "head" },
+		{ item: "olive oil", number: 6, unit: "Tb" },
+		{ item: "leeks", number: 3, unit: "large" },
+		{ item: "matzah meal", number: 6, unit: "Tb" },
+		{ item: "eggs", number: 3, unit: "each" },
+		{ item: "parsley", number: 0.5, unit: "bundle" },
+		{ item: "dill", number: 0.5, unit: "cup" },
+		{ item: "salt", number: 1.5, unit: "tsp" },
+		{ item: "pepper", number: 0.5, unit: "tsp" },
+		{ item: "almonds", number: 1/3, unit: "cup" },
+	]
+}
+
 recipes['cashew butter'] = {
 	ingredients: [
 		{ item: "cashews", number: 1, unit: "lb" },
@@ -215,10 +230,9 @@ recipes['almond butter'] = {
 
 recipes['haroset'] = {
 	ingredients: [
-		{ item: "eggs", number: 4 },
+		{ item: "eggs", number: 4, unit: "each" },
 		{ item: "apples", number: 12 },
 		{ item: "bananas", number: 6 },
-		{ item: "eggs", number: 4 },
 		{ item: "lemon", number: 1 },
 		{ item: "dates (pitted)", number: 130 },
 		{ item: "figs", number: 60 },
@@ -235,6 +249,29 @@ recipes['haroset'] = {
 		{ item: "ginger", number: 2, unit: "Tb" },
 		{ item: "coriander", number: 2, unit: "Tb" },
 		{ item: "allspice", number: 2, unit: "Tb" },
+	]
+}
+
+recipes['gnocci'] = {
+	ingredients: [
+		{ item: "potatoes", number: 2.5, unit: "lb" },
+		{ item: "cake meal", number: 2/3, unit: "cup" },
+		{ item: "starch", number: 1, unit: "cup" },
+		{ item: "eggs", number: 2, unit: "each" },
+		{ item: "salt", number: 2, unit: "tsp" },
+		{ item: "pepper", number: 0.5, unit: "tsp" },
+		{ item: "olive oil", number: 2, unit: "Tb" },
+	]
+}
+
+recipes['pudding'] = {
+	ingredients: [
+		{ item: "starch", number: 0.25, unit: "cup" },
+		{ item: "sugar", number: 0.5, unit: "cup" },
+		{ item: "salt", number: 1/8, unit: "tsp" },
+		{ item: "milk", number: 3, unit: "cup" },
+		{ item: "chocolate", number: 1, unit: "bar" },
+		{ item: "vanilla", number: 1, unit: "bean" },
 	]
 }
 
