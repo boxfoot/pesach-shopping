@@ -7,7 +7,7 @@ const groceries = {
 	eggs: { store: 'TJ', aisle: 'dairy', unit: 'dozen' },
 	'horse radish': { store: 'Coopers', aisle: 'dairy', unit: 'jar' },
 	salmon: { store: 'Coastal', aisle: 'n/a', unit: 'lb' },
-	lox: { store: 'TJ', aisle: 'meat', unit: 'lb' },
+	lox: { store: 'Coopers', aisle: 'meat', unit: 'lb' },
 	'hard cheese': { store: 'Coopers | Cub', aisle: 'dairy', unit: 'each' },
 	'cheese': { store: 'Coopers', aisle: 'dairy', unit: 'each' },
 	'cream cheese': { store: 'Coopers', aisle: 'dairy', unit: 'each' },
@@ -23,15 +23,18 @@ const groceries = {
 	'orange juice': { store: '*any*', aisle: 'liquids', unit: 'cup' },
 	'olive oil': { store: '*any*', aisle: 'liquids', unit: 'cup' },
 	'wine vinegar': { store: 'Coopers', aisle: 'K for P', unit: 'cup' },
+	'balsamic vinegar': { store: 'Coopers', aisle: 'K for P', unit: 'cup' },
 	honey: { store: 'TJ', aisle: 'liquids', unit: 'cup' },
+	'maple syrup': { store: 'TJ', aisle: 'liquids', unit: 'cup'},
 
 	tuna: { store: 'Coopers', aisle: 'K for P', unit: 'cup' },
 	sardines: { store: 'Coopers', aisle: 'K for P', unit: 'cup' },
+	'gefilte fish': { store: 'Coopers', aisle: 'K for P', unit: 'log' },
 
-	tea: { store: '???', aisle: 'misc', unit: 'each' },
-	coffee: { store: '???', aisle: 'misc', unit: 'each' },
-	quinoa: { store: '???', aisle: 'misc', unit: 'lb' },
-	tehina: { store: '???', aisle: 'liquids', unit: 'each' },
+	tea: { store: 'TJ', aisle: 'misc', unit: 'each' },
+	coffee: { store: 'TJ', aisle: 'misc', unit: 'each' },
+	quinoa: { store: 'TJ', aisle: 'misc', unit: 'lb' },
+	tehina: { store: 'Coopers|coop', aisle: 'liquids', unit: 'each' },
 	cocoa: { store: 'coop', aisle: 'misc', unit: 'each' },
 	chocolate: { store: 'coop', aisle: 'misc', unit: 'bar' },
 
@@ -51,9 +54,11 @@ const groceries = {
 	potatoes: { store: '*any*', aisle: 'produce', unit: 'lb' },
 	onions: { store: '*any*', aisle: 'produce', unit: 'each' },
 	'onion skins': { store: '*any*', aisle: 'produce', unit: 'bag' },
+	'red onion': { store: '*any*', aisle: 'produce', unit: 'each' },
 	'red peppers': { store: '*any*', aisle: 'produce', unit: 'each' },
 	garlic: { store: '*any*', aisle: 'produce', unit: 'each' },
 	carrots: { store: '*any*', aisle: 'produce', unit: 'each' },
+	celery: { store: '*any*', aisle: 'produce', unit: 'each' },
 	tomatoes: { store: '*any*', aisle: 'produce', unit: 'lb' },
 	leeks: { store: '*any*', aisle: 'produce', unit: 'large' },
 	maror: { store: '???', aisle: 'produce', unit: 'each' },
@@ -62,6 +67,7 @@ const groceries = {
 	apples: { store: '*any*', aisle: 'produce', unit: 'each' },
 	lemon: { store: '*any*', aisle: 'produce', unit: 'each' },
 	'fruits + veggies': { store: '*any*', aisle: 'produce', unit: 'each' },
+	'tea herbs': { store: '*any*', aisle: 'produce', unit: 'each' },
 
 	almonds: {store: 'TJ', aisle: 'nuts', unit: 'lb' },
 	cashews: {store: 'TJ', aisle: 'nuts', unit: 'lb' },
@@ -84,6 +90,9 @@ const groceries = {
 	'sweet wine': {store: 'TJ', aisle: 'Wine store', unit: 'bottle' },
 
 	sugar: {store: 'Coopers', aisle: 'spices', unit: 'cup' },
+	'brown sugar': {store: 'Coopers', aisle: 'spices', unit: 'cup' },
+	'powdered sugar': {store: 'Coopers', aisle: 'spices', unit: 'cup' },
+
 	salt: {store: 'Coopers', aisle: 'spices', unit: 'Tb' },
 	basil: {store: 'Coopers', aisle: 'spices', unit: 'Tb' },
 	dill: {store: 'Coopers', aisle: 'spices', unit: 'Tb' },
@@ -96,6 +105,9 @@ const groceries = {
 	cloves: {store: 'Coopers', aisle: 'spices', unit: 'Tb' },
 	vanilla: {store: 'Coopers', aisle: 'spices', unit: 'bean' },
 	curry: {store: 'Coopers', aisle: 'spices', unit: 'Tb' },
+	'red pepper flakes': {store: 'Coopers', aisle: 'spices', unit: 'pinch'},
+
+	foil: {store: '*any*', aisle: 'stuff', unit: 'sqft' }
 }
 
 module.exports = groceries;

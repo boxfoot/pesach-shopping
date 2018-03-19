@@ -118,12 +118,34 @@ recipes['green beans'] = {
 	]
 }
 
+recipes['roasted green beans'] = {
+	ingredients: [
+		{ item: "green beans", number: 1, unit: "lb" },
+		{ item: "red onion", number: 1 },
+		{ item: "olive oil", number: 2, unit: "tsp" },
+		{ item: "balsamic vinegar", number: 2, unit: "Tb" },
+		{ item: "salt", number: 1 },
+		{ item: "pepper", number: 1 },
+		{ item: "red pepper flakes", number: 1, unit: "pinch"},
+		
+	]
+}
+
 recipes['quinoa pilaf'] = {
 	ingredients: [
 		{ item: "quinoa", number: 1, unit: "lb" },
 		{ item: "raisins", number: 0.25, unit: "lb" },
 		{ item: "pine nuts", number: 3, unit: "oz" },
 	]
+}
+
+recipes['stuffed peppers'] = {
+	ingredients: [
+		{ item: 'red peppers', number: 8 },
+		{ item: 'feta', number: 1 },
+
+	],
+	note: "Stuff with quinoa pilaf. 1 lb quinoa fills est 8 red peppers."
 }
 
 recipes['apple cake'] = {
@@ -195,9 +217,15 @@ recipes['food to eat'] = {
 		{ item: "cottage", number: 4 },
 		{ item: "milk", number: 1 },
 		{ item: "whipping cream", number: 2 },
+		{ item: "maple syrup", number: 1 },
 
 		{ item: "olives", number: 4 },
 		{ item: "raisins", number: 2 },
+
+		{ item: "foil", number: 75 },
+
+		{ item: "brown sugar", number: 1 },
+		{ item: "powdered sugar", number: 1 },
 	]
 }
 
@@ -213,6 +241,14 @@ recipes['cauliflower kugel'] = {
 		{ item: "salt", number: 1.5, unit: "tsp" },
 		{ item: "pepper", number: 0.5, unit: "tsp" },
 		{ item: "almonds", number: 1/3, unit: "cup" },
+	]
+}
+
+recipes['cauliflower mush'] = {
+	ingredients: [
+		//{ item: "cauliflower", number: 2, unit: "head" },
+		//{ item: "cabbage", number: 2, unit: "head" },
+		//{ item: "potatoes", number: 2, unit: "head" },
 	]
 }
 
