@@ -244,11 +244,15 @@ recipes['cauliflower kugel'] = {
 	]
 }
 
-recipes['cauliflower mush'] = {
+recipes['potato cauliflower mash'] = {
 	ingredients: [
-		//{ item: "cauliflower", number: 2, unit: "head" },
-		//{ item: "cabbage", number: 2, unit: "head" },
-		//{ item: "potatoes", number: 2, unit: "head" },
+		{ item: "cauliflower (lb)", number: 1.5, unit: "lb" },
+		{ item: "cabbage", number: 1/2, unit: "head" },
+		{ item: "potatoes (russet)", number: 1.5, unit: "lb" },
+		{ item: "sour cream", number: .5, unit: "cup" },
+		{ item: "butter", number: 4, unit: "Tb" },
+		{ item: "olive oil", number: 2, unit: "Tb" },
+		{ item: "onions", number: 1, unit: "each" },
 	]
 }
 
@@ -308,6 +312,17 @@ recipes['pudding'] = {
 		{ item: "milk", number: 3, unit: "cup" },
 		{ item: "chocolate", number: 1, unit: "bar" },
 		{ item: "vanilla", number: 1, unit: "bean" },
+	]
+}
+
+recipes['popovers'] = {
+	ingredients: [
+		{ item: "oil", number: 2/3, unit: "cup" },
+		{ item: "salt", number: 1, unit: "tsp" },
+		{ item: "sugar", number: 4, unit: "Tb" },
+		{ item: "cake meal", number: 1, unit: "cup" },
+		{ item: "matzah meal", number: 1, unit: "cup" },
+		{ item: "eggs", number: 6, unit: "each" },
 	]
 }
 

@@ -44,11 +44,11 @@ module.exports = {
 	'guacamole': 3,
 
     'matzah_balls': 5,
-    'gefilte fish': 4,
+    'gefilte fish': 5,
 	'veggie soup': 5,
 	
-    'cauliflower mush': 4,
-	'roasted green beans': 6,
+    'potato cauliflower mash': 3,
+	'roasted green beans': 3,
     'quinoa pilaf': 1.5,
     'stuffed peppers': 1.5,
 
@@ -62,4 +62,5 @@ module.exports = {
 	'almond butter': 3,
 	'gnocci': 2,
 	'pudding': 2,
+	'popovers': 2,
 }
