@@ -1,5 +1,5 @@
 {
-  "matzah_balls": {
+  "matzah balls": {
     "ingredients": [
       { "item": "eggs", "number": 4, "unit": "each" },
       { "item": "seltzer", "number": 0.5 },
@@ -32,10 +32,23 @@
 
   "matzah and wine": {
     "ingredients": [
-      { "item": "matzah", "number": 0.5 },
+      { "item": "matzah", "number": 14 },
       { "item": "red wine", "number": 1 },
       { "item": "white wine", "number": 1 },
       { "item": "grape juice", "number": 1 }
+    ]
+  },
+
+  "butternut gratin": {
+    "ingredients": [
+      { "item": "butternut", "number": 3.5, "unit": "lb" },
+      { "item": "olive oil", "number": 2, "unit": "Tb" },
+      { "item": "butter", "number": 3, "unit": "Tb" },
+      { "item": "leeks", "number": 2, "unit": "large" },
+      { "item": "sage", "number": 1.5, "unit": "tsp" },
+      { "item": "goat cheese", "number": 5.5, "unit": "oz" },
+      { "item": "heavy cream", "number": 1, "unit": "cup" },
+      { "item": "hazelnuts", "number": 0.5, "unit": "cup" }
     ]
   },
 
@@ -57,6 +70,15 @@
     ]
   },
 
+  "crack": {
+    "ingredients": [
+      { "item": "matzah", "number": 1 },
+      { "item": "butter", "number": 1, "unit": "stick" },
+      { "item": "brown sugar", "number": 1, "unit": "cup" },
+      { "item": "chocolate", "number": 1, "unit": "bar" }
+    ]
+  },
+
   "huevos haminadas": {
     "ingredients": [
       { "item": "eggs", "number": 24, "unit": "each" },
@@ -67,8 +89,26 @@
     ]
   },
 
+  "granola": {
+    "note": "placeholder... uses ingredients we're buying anyway",
+    "ingredients": []
+  },
+
   "roasted cauliflower": {
     "ingredients": [{ "item": "cauliflower", "number": 2 }]
+  },
+
+  "red cabbage tahini salad": {
+    "source": ["Olive Trees and Honey", 93],
+    "ingredients": [
+      { "item": "red cabbage", "number": 1 },
+      { "item": "carrots", "number": 1 },
+      { "item": "green peppers", "number": 1 },
+      { "item": "red peppers", "number": 1 },
+      { "item": "tehina", "number": 0.75, "unit": "cup" },
+      { "item": "parsley", "number": 0.25, "unit": "bundle" },
+      { "item": "lemon", "number": 1 }
+    ]
   },
 
   "new potatoes": {
@@ -99,6 +139,7 @@
   },
 
   "green beans": {
+    "note": "Duplicate recipe / not used any more",
     "ingredients": [{ "item": "green beans", "number": 2, "unit": "lb" }]
   },
 
@@ -169,6 +210,9 @@
 
   "food to eat": {
     "ingredients": [
+      { "item": "almonds", "number": 3, "unit": "lb" },
+      { "item": "cashews", "number": 2, "unit": "lb" },
+
       { "item": "parsley", "number": 4, "unit": "bundle" },
       { "item": "raisins", "number": 2, "unit": "lb" },
 
@@ -196,7 +240,7 @@
       { "item": "feta", "number": 2 },
       { "item": "cottage", "number": 4 },
       { "item": "milk", "number": 1 },
-      { "item": "whipping cream", "number": 2 },
+      { "item": "heavy cream", "number": 2 },
       { "item": "maple syrup", "number": 1 },
 
       { "item": "olives", "number": 4 },
@@ -276,7 +320,8 @@
       { "item": "eggs", "number": 2, "unit": "each" },
       { "item": "salt", "number": 2, "unit": "tsp" },
       { "item": "pepper", "number": 0.5, "unit": "tsp" },
-      { "item": "olive oil", "number": 2, "unit": "Tb" }
+      { "item": "olive oil", "number": 2, "unit": "Tb" },
+      { "item": "tomatoes", "number": 3, "unit": "lb" }
     ]
   },
 

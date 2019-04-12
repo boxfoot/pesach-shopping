@@ -3,18 +3,20 @@
   "haroset": 1,
   "matzah and wine": 12,
 
-  "huevos haminadas": 3,
+  "huevos haminadas": 3.5,
   "new potatoes": 3,
   "crudite": 1,
-  "artichokes + mayo": 2,
+  "artichokes + mayo": 3,
   "guacamole": 3,
 
   "matzah balls": 5,
   "gefilte fish": 5,
   "veggie soup": 5,
+  "butternut gratin": 2,
+  "red cabbage tahini salad": 2,
 
-  "potato cauliflower mash": 3,
-  "roasted green beans": 3,
+  "potato cauliflower mash": 2,
+  "roasted green beans": 2,
   "quinoa pilaf": 1.5,
   "stuffed peppers": 1.5,
 
@@ -28,5 +30,7 @@
   "almond butter": 3,
   "gnocci": 2,
   "pudding": 2,
-  "popovers": 2
+  "popovers": 2,
+  "granola": 2,
+  "crack": 1
 }
