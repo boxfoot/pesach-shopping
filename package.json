@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Recipe planning and shopping list generator",
   "main": "index.js",
+  "type": "module",
   "repository": "https://bitbucket.org/benjkamm/pesach-recipes.git",
   "author": "Benj <benj.kamm@gmail.com>",
   "license": "MIT",
@@ -10,6 +11,6 @@
     "csv-stringify": "^1.0.4"
   },
   "scripts": {
-    "generate": "node index.js > shopping.csv && start shopping.csv"
+    "generate": "node index.js > shopping.csv"
   }
 }

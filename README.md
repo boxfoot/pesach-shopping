@@ -12,4 +12,4 @@ The format for the db files is finicky and you need exact text matches to refere
 across the files, but it works for now. You'll get noisy errors if things don't
 match up which will help you fix them.
 
-To recover the shopping list from a specific year, just pass the year as another parameter: `node --experimental-modules index.mjs 5777`
+To recover the shopping list from a specific year, just pass the year as another parameter: `node index.js 5777`

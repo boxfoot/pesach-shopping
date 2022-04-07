@@ -70,12 +70,13 @@
     ]
   },
 
-  "crack": {
+  "matzah crunch": {
     "ingredients": [
       { "item": "matzah", "number": 1 },
       { "item": "butter", "number": 1, "unit": "stick" },
       { "item": "brown sugar", "number": 1, "unit": "cup" },
-      { "item": "chocolate", "number": 1, "unit": "bar" }
+      { "item": "chocolate", "number": 1, "unit": "bar" },
+      { "item": "cashews", "number": 1, "unit": "cup" }
     ]
   },
 
