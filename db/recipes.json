@@ -346,5 +346,9 @@
       { "item": "matzah meal", "number": 1, "unit": "cup" },
       { "item": "eggs", "number": 6, "unit": "each" }
     ]
+  },
+
+  "wild rice pilaf": {
+    "ingredients": [{ "item": "wild rice", "number": 1, "unit": "lb" }]
   }
 }

@@ -34,6 +34,7 @@
   "tea": { "store": "TJ", "aisle": "misc", "unit": "each" },
   "coffee": { "store": "TJ", "aisle": "misc", "unit": "each" },
   "quinoa": { "store": "TJ", "aisle": "misc", "unit": "lb" },
+  "wild rice": { "store": "coop", "aisle": "misc", "unit": "lb" },
   "tehina": { "store": "Coopers|coop", "aisle": "liquids", "unit": "pint" },
   "cocoa": { "store": "coop", "aisle": "misc", "unit": "each" },
   "chocolate": { "store": "coop", "aisle": "misc", "unit": "bar" },
